@@ -40,6 +40,4 @@ public class StockUtils {
         return quoteString.toString();
     }
 
-
-
 }

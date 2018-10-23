@@ -1,5 +1,7 @@
 package com.cooksys.ftd.ticker.dto;
 
+import java.io.Serializable;
+
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlRootElement;
@@ -7,7 +9,7 @@ import javax.xml.bind.annotation.XmlValue;
 
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.FIELD)
-public enum QuoteField {
+public enum QuoteField implements Serializable {
 
     OPEN("open"),
     CLOSE("close"),
